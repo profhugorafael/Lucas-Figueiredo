@@ -12,13 +12,9 @@ public class Main {
         int quantidadeDePessoas = 1000;
         Pessoa[] turma = new Pessoa[quantidadeDePessoas];
 
-        Pessoa p1 = new Pessoa();
-        Pessoa p2 = new Pessoa();
+        Pessoa p1 = new Pessoa("Pedro da Silva", 23, 1.7, false);
+        Pessoa p2 = new Pessoa("Alice da Silva", 25, 1.6);
 
-        p1.nome = "Pedro da Silva";
-        p2.nome = "Alice da Silva";
-
-        p1.idade = 23;
         System.out.println(p1.idade);
         p1.fazerAniversario();
         System.out.println(p1.idade);
